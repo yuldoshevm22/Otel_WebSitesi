@@ -1,0 +1,1 @@
+// HotelRunner booking button script

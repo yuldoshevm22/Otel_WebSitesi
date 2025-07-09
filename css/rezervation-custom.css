@@ -1,0 +1,174 @@
+/* Templatemo Villa Agency ile uyumlu rezervasyon sayfası stilleri */
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.rez-header {
+  background: #fff;
+  color: #1e1e1e;
+  padding: 40px 0 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.rez-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.rez-header h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: #ee9522;
+}
+
+.rez-header p {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-bottom: 0;
+}
+
+.rez-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(30,30,30,0.07);
+  padding: 40px 32px 32px 32px;
+  border: 1px solid #f1f0fe;
+}
+
+.rez-form label {
+  font-weight: 500;
+  margin-top: 12px;
+  display: block;
+  color: #1e1e1e;
+}
+
+.rez-form input,
+.rez-form select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  background: #fafafa;
+  transition: border 0.2s;
+  color: #1e1e1e;
+}
+
+.rez-form input:focus,
+.rez-form select:focus {
+  border: 1.5px solid #ee9522;
+  outline: none;
+  background: #fff;
+}
+
+/* Temaya uygun Book Now butonu */
+.rez-form button,
+.main-button {
+  display: block;
+  margin: 30px auto 0 auto;
+  width: 220px;
+  background: #1e1e1e;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(30,30,30,0.08);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.rez-form button:hover,
+.main-button:hover {
+  background: #ee9522;
+  color: #fff;
+}
+
+.rez-success {
+  text-align: center;
+  color: #1e1e1e;
+  font-size: 20px;
+  margin-top: 30px;
+  background: #f1f0fe;
+  border-radius: 12px;
+  padding: 24px 10px;
+  border: 1px solid #ee9522;
+}
+
+@media (max-width: 700px) {
+  .rez-container {
+    padding: 16px 4px;
+    margin: 20px 4px;
+    max-width: 98vw;
+    border-radius: 10px;
+  }
+  .rez-header h1 {
+    font-size: 1.3rem;
+  }
+  .rez-header h2 {
+    font-size: 1rem;
+  }
+  .rez-form button,
+  .main-button {
+    font-size: 15px;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 22px;
+  }
+}
+/* Menüdeki Book NOW butonu özel tasarım */
+.booknow-btn {
+  display: inline-flex;
+  align-items: center;
+  background: #1e1e1e;
+  color: #ee9522 !important;
+  border-radius: 30px;
+  padding: 0 28px 0 0;
+  height: 48px;
+  font-weight: 600;
+  font-size: 18px;
+  transition: background 0.2s, color 0.2s;
+  position: relative;
+  margin-left: 10px;
+  box-shadow: 0 2px 8px rgba(30,30,30,0.08);
+  border: none;
+}
+.booknow-btn.active,
+.booknow-btn:hover {
+  background: #ee9522;
+  color: #fff !important;
+}
+.booknow-btn .booknow-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ee9522;
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 22px;
+  margin-right: 12px;
+  margin-left: -12px;
+  transition: background 0.2s, color 0.2s;
+}
+.booknow-btn.active .booknow-icon,
+.booknow-btn:hover .booknow-icon {
+  background: #1e1e1e;
+  color: #ee9522;
+}
